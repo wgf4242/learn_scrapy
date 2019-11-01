@@ -6,7 +6,7 @@ class GoodReadsSpider(scrapy.Spider):
     name = 'goodreads'
 
     # requests
-    def startrequests(self):
+    def start_requests(self):
         urls = [
             'https://www.goodreads.com/quotes?=page=1'
             'https://www.goodreads.com/quotes?page=2'
